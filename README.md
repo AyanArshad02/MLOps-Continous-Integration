@@ -52,17 +52,16 @@ jobs:
 ```
 
 > 🛠 How to Set Up CI
-Create the workflow file
-Add the above .yaml file inside .github/workflows/ci.yml
+1. Create the workflow file
+    - Add the above .yaml file inside .github/workflows/ci.yml
 
-Commit & Push
-
-sh
-Copy
+2. Commit & Push
+```sh
 git add .github/workflows/ci.yml
 git commit -m "Add GitHub Actions CI workflow"
 git push origin main
-Check the Workflow
+```
 
-Go to your GitHub repository → Actions tab
-Ensure that the CI pipeline runs successfully
+3. Check the Workflow
+    - Go to your GitHub repository → Actions tab
+    - Ensure that the CI pipeline runs successfully
