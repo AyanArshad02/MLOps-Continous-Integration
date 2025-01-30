@@ -51,7 +51,7 @@ jobs:
           pytest tests/
 ```
 
-> 🛠 How to Set Up CI
+## 🛠 How to Set Up CI
 1. Create the workflow file
     - Add the above .yaml file inside .github/workflows/ci.yml
 
